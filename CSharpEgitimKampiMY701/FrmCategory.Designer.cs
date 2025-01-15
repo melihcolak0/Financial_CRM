@@ -1,0 +1,412 @@
+﻿namespace CSharpEgitimKampiMY701
+{
+    partial class FrmCategory
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCategory));
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.btnUpdate = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.btnList = new System.Windows.Forms.Button();
+            this.txtCategoryName = new System.Windows.Forms.TextBox();
+            this.txtId = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.lblDateClock = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lblUserNameSurname = new System.Windows.Forms.Label();
+            this.btnBack = new System.Windows.Forms.Button();
+            this.btnSettings = new System.Windows.Forms.Button();
+            this.btnDashboard = new System.Windows.Forms.Button();
+            this.btnBankProcesses = new System.Windows.Forms.Button();
+            this.btnSpendings = new System.Windows.Forms.Button();
+            this.btnBills = new System.Windows.Forms.Button();
+            this.btnBanks = new System.Windows.Forms.Button();
+            this.btnCategory = new System.Windows.Forms.Button();
+            this.panel3.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(124)))), ((int)(((byte)(125)))));
+            this.panel3.Controls.Add(this.btnUpdate);
+            this.panel3.Controls.Add(this.btnDelete);
+            this.panel3.Controls.Add(this.btnAdd);
+            this.panel3.Controls.Add(this.btnList);
+            this.panel3.Controls.Add(this.txtCategoryName);
+            this.panel3.Controls.Add(this.txtId);
+            this.panel3.Controls.Add(this.label5);
+            this.panel3.Controls.Add(this.label2);
+            this.panel3.Location = new System.Drawing.Point(206, 58);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(641, 206);
+            this.panel3.TabIndex = 7;
+            // 
+            // btnUpdate
+            // 
+            this.btnUpdate.FlatAppearance.BorderSize = 2;
+            this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUpdate.ForeColor = System.Drawing.Color.Black;
+            this.btnUpdate.Location = new System.Drawing.Point(394, 155);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(174, 44);
+            this.btnUpdate.TabIndex = 13;
+            this.btnUpdate.Text = "Kategori Güncelle";
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.FlatAppearance.BorderSize = 2;
+            this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDelete.ForeColor = System.Drawing.Color.Black;
+            this.btnDelete.Location = new System.Drawing.Point(394, 105);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(174, 44);
+            this.btnDelete.TabIndex = 12;
+            this.btnDelete.Text = "Kategori Sil";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.FlatAppearance.BorderSize = 2;
+            this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAdd.ForeColor = System.Drawing.Color.Black;
+            this.btnAdd.Location = new System.Drawing.Point(394, 55);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(174, 44);
+            this.btnAdd.TabIndex = 11;
+            this.btnAdd.Text = "Yeni Kategori Ekle";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
+            // btnList
+            // 
+            this.btnList.FlatAppearance.BorderSize = 2;
+            this.btnList.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnList.ForeColor = System.Drawing.Color.Black;
+            this.btnList.Location = new System.Drawing.Point(394, 5);
+            this.btnList.Name = "btnList";
+            this.btnList.Size = new System.Drawing.Size(174, 44);
+            this.btnList.TabIndex = 10;
+            this.btnList.Text = "Kategorileri Listele";
+            this.btnList.UseVisualStyleBackColor = true;
+            this.btnList.Click += new System.EventHandler(this.btnList_Click);
+            // 
+            // txtCategoryName
+            // 
+            this.txtCategoryName.Location = new System.Drawing.Point(130, 99);
+            this.txtCategoryName.Name = "txtCategoryName";
+            this.txtCategoryName.Size = new System.Drawing.Size(218, 29);
+            this.txtCategoryName.TabIndex = 5;
+            // 
+            // txtId
+            // 
+            this.txtId.Location = new System.Drawing.Point(130, 64);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(218, 29);
+            this.txtId.TabIndex = 4;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.Location = new System.Drawing.Point(26, 102);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(98, 21);
+            this.label5.TabIndex = 3;
+            this.label5.Text = "Kategori Adı:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(36, 67);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(88, 21);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Kategori Id:";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.SystemColors.Highlight;
+            this.panel2.Controls.Add(this.lblDateClock);
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(863, 52);
+            this.panel2.TabIndex = 6;
+            // 
+            // lblDateClock
+            // 
+            this.lblDateClock.AutoSize = true;
+            this.lblDateClock.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblDateClock.ForeColor = System.Drawing.Color.White;
+            this.lblDateClock.Location = new System.Drawing.Point(689, 16);
+            this.lblDateClock.Name = "lblDateClock";
+            this.lblDateClock.Size = new System.Drawing.Size(158, 21);
+            this.lblDateClock.TabIndex = 4;
+            this.lblDateClock.Text = "00/00/0000 00:00:00";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 16F);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(120, 30);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Kategoriler";
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.dataGridView1);
+            this.panel4.Location = new System.Drawing.Point(206, 270);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(641, 215);
+            this.panel4.TabIndex = 8;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(641, 215);
+            this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(194)))), ((int)(((byte)(230)))));
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.lblUserNameSurname);
+            this.panel1.Controls.Add(this.btnBack);
+            this.panel1.Controls.Add(this.btnSettings);
+            this.panel1.Controls.Add(this.btnDashboard);
+            this.panel1.Controls.Add(this.btnBankProcesses);
+            this.panel1.Controls.Add(this.btnSpendings);
+            this.panel1.Controls.Add(this.btnBills);
+            this.panel1.Controls.Add(this.btnBanks);
+            this.panel1.Controls.Add(this.btnCategory);
+            this.panel1.Location = new System.Drawing.Point(0, 48);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(200, 448);
+            this.panel1.TabIndex = 5;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(35, 7);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(32, 29);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 10;
+            this.pictureBox1.TabStop = false;
+            // 
+            // lblUserNameSurname
+            // 
+            this.lblUserNameSurname.AutoSize = true;
+            this.lblUserNameSurname.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblUserNameSurname.ForeColor = System.Drawing.Color.Black;
+            this.lblUserNameSurname.Location = new System.Drawing.Point(73, 11);
+            this.lblUserNameSurname.Name = "lblUserNameSurname";
+            this.lblUserNameSurname.Size = new System.Drawing.Size(92, 21);
+            this.lblUserNameSurname.TabIndex = 11;
+            this.lblUserNameSurname.Text = "Melih Çolak";
+            // 
+            // btnBack
+            // 
+            this.btnBack.FlatAppearance.BorderSize = 2;
+            this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBack.Location = new System.Drawing.Point(12, 393);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(174, 44);
+            this.btnBack.TabIndex = 9;
+            this.btnBack.Text = "Geri";
+            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            // 
+            // btnSettings
+            // 
+            this.btnSettings.FlatAppearance.BorderSize = 2;
+            this.btnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSettings.Location = new System.Drawing.Point(12, 343);
+            this.btnSettings.Name = "btnSettings";
+            this.btnSettings.Size = new System.Drawing.Size(174, 44);
+            this.btnSettings.TabIndex = 8;
+            this.btnSettings.Text = "Ayarlar";
+            this.btnSettings.UseVisualStyleBackColor = true;
+            this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
+            // 
+            // btnDashboard
+            // 
+            this.btnDashboard.FlatAppearance.BorderSize = 2;
+            this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDashboard.Location = new System.Drawing.Point(12, 293);
+            this.btnDashboard.Name = "btnDashboard";
+            this.btnDashboard.Size = new System.Drawing.Size(174, 44);
+            this.btnDashboard.TabIndex = 7;
+            this.btnDashboard.Text = "Dashboard";
+            this.btnDashboard.UseVisualStyleBackColor = true;
+            this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
+            // 
+            // btnBankProcesses
+            // 
+            this.btnBankProcesses.FlatAppearance.BorderSize = 2;
+            this.btnBankProcesses.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBankProcesses.Location = new System.Drawing.Point(12, 243);
+            this.btnBankProcesses.Name = "btnBankProcesses";
+            this.btnBankProcesses.Size = new System.Drawing.Size(174, 44);
+            this.btnBankProcesses.TabIndex = 6;
+            this.btnBankProcesses.Text = "Banka Hareketleri";
+            this.btnBankProcesses.UseVisualStyleBackColor = true;
+            this.btnBankProcesses.Click += new System.EventHandler(this.btnBankProcesses_Click);
+            // 
+            // btnSpendings
+            // 
+            this.btnSpendings.FlatAppearance.BorderSize = 2;
+            this.btnSpendings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSpendings.Location = new System.Drawing.Point(12, 193);
+            this.btnSpendings.Name = "btnSpendings";
+            this.btnSpendings.Size = new System.Drawing.Size(174, 44);
+            this.btnSpendings.TabIndex = 5;
+            this.btnSpendings.Text = "Giderler";
+            this.btnSpendings.UseVisualStyleBackColor = true;
+            this.btnSpendings.Click += new System.EventHandler(this.btnSpendings_Click);
+            // 
+            // btnBills
+            // 
+            this.btnBills.FlatAppearance.BorderSize = 2;
+            this.btnBills.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBills.Location = new System.Drawing.Point(12, 143);
+            this.btnBills.Name = "btnBills";
+            this.btnBills.Size = new System.Drawing.Size(174, 44);
+            this.btnBills.TabIndex = 4;
+            this.btnBills.Text = "Faturalar";
+            this.btnBills.UseVisualStyleBackColor = true;
+            this.btnBills.Click += new System.EventHandler(this.btnBills_Click);
+            // 
+            // btnBanks
+            // 
+            this.btnBanks.FlatAppearance.BorderSize = 2;
+            this.btnBanks.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBanks.Location = new System.Drawing.Point(12, 93);
+            this.btnBanks.Name = "btnBanks";
+            this.btnBanks.Size = new System.Drawing.Size(174, 44);
+            this.btnBanks.TabIndex = 3;
+            this.btnBanks.Text = "Bankalar";
+            this.btnBanks.UseVisualStyleBackColor = true;
+            this.btnBanks.Click += new System.EventHandler(this.btnBanks_Click);
+            // 
+            // btnCategory
+            // 
+            this.btnCategory.FlatAppearance.BorderSize = 2;
+            this.btnCategory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCategory.Location = new System.Drawing.Point(12, 43);
+            this.btnCategory.Name = "btnCategory";
+            this.btnCategory.Size = new System.Drawing.Size(174, 44);
+            this.btnCategory.TabIndex = 2;
+            this.btnCategory.Text = "Kategoriler";
+            this.btnCategory.UseVisualStyleBackColor = true;
+            this.btnCategory.Click += new System.EventHandler(this.btnCategory_Click);
+            // 
+            // FrmCategory
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(215)))), ((int)(((byte)(238)))));
+            this.ClientSize = new System.Drawing.Size(859, 495);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel4);
+            this.Controls.Add(this.panel1);
+            this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Name = "FrmCategory";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "FrmCategory";
+            this.Load += new System.EventHandler(this.FrmCategory_Load);
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button btnUpdate;
+        private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Button btnList;
+        private System.Windows.Forms.TextBox txtCategoryName;
+        private System.Windows.Forms.TextBox txtId;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lblUserNameSurname;
+        private System.Windows.Forms.Button btnBack;
+        private System.Windows.Forms.Button btnSettings;
+        private System.Windows.Forms.Button btnDashboard;
+        private System.Windows.Forms.Button btnBankProcesses;
+        private System.Windows.Forms.Button btnSpendings;
+        private System.Windows.Forms.Button btnBills;
+        private System.Windows.Forms.Button btnBanks;
+        private System.Windows.Forms.Button btnCategory;
+        private System.Windows.Forms.Label lblDateClock;
+    }
+}
